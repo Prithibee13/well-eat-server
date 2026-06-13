@@ -1,51 +1,7 @@
-[
-    "nav"{
-        "brand" : "EATWELL",
-        "links" : [
-            {
-                "id" : 1,
-                "links" : "HOME"
-            },
-            {
-                "id" : 2,
-                "links" : "ABOUT"
-            },
-            {
-                "id" : 3,
-                "links" : "OFFER"
-            },
-            {
-                "id" : 4,
-                "links" : "MENU"
-            },
-            {
-                "id" : 5,
-                "links" : "NEWS"
-            },
-            {
-                "id" : 6,
-                "links" : "GALLERY"
-            },
-            {
-                "id" : 7,
-                "links" : "CONTACT"
-            }
-        ]
-    },
+
     "hero"
-    {
-        "title" : "Welcome To Eat",
-        "paragraph" : "Come and eat well with our delicious & healthy food",
-        "button" : "Reservation"
-    },
+    ,
     "story"
-    {
-        "header": "OUR STORY",
-        "title" : "Welcome",
-        "paragraph1" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-        "paragraph2" : "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
-        "button" : "Learn More About Us"
-    },
+    
 
 
-]
