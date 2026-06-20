@@ -1,7 +1,63 @@
-
-    "hero"
-    ,
-    "story"
+[
+    {
+        "title" : "Gallery",
+        "paragraph" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        "items" : 
+        [
+            {
+                "id" : 1,
+                "src" : "https://i.postimg.cc/WbdHvc52/alex-munsell-Yr4n8O-3UPc-unsplash.jpg"
+            },
+            {
+                "id" : 2,
+                "src" : "https://i.postimg.cc/VL2HsZhy/amirali-mirhashemian-sc5s-TPMr-Vfk-unsplash.jpg"
+            },
+            {
+                "id" : 3,
+                "src" : "https://i.postimg.cc/c4P51kzH/kostiantyn-vierkieiev-P1Pl-QRi-Gwmc-unsplash.jpg"
+            },
+            {
+                "id" : 4,
+                "src" : "https://i.postimg.cc/7h6QhFD0/olayinka-babalola-r01Zop-Ti-EV8-unsplash.jpg"
+            },
+            {
+                "id" : 5,
+                "src" : "https://i.postimg.cc/brJFr78q/nikldn-qp7WA8AV2x0-unsplash.jpg"
+            },
+            {
+                "id" : 6,
+                "src" : "https://i.postimg.cc/qqRZqP0M/rawkkim-n-Ep-H5LADld-U-unsplash.jpg"
+            }
+        ]
+    },
+    {
+        "title" : "News",
+        "paragraph" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        "items" : [
+            {
+                "id": "1",
+                "header" : "We Have Dilecious Food",
+                "detailes" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+                "img": "https://i.postimg.cc/5NDk9KrW/davide-cantelli-jpkfc5-d-DI-unsplash.jpg",
+                "button" : "Read More"
+            },
+            {
+                "id": "2",
+                "header" : "Chef Special Menu",
+                "detailes" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+                "img": "https://i.postimg.cc/8PxnkXYp/ella-olsson-mmn-KI8k-Mxpc-unsplash.jpg",
+                "button" : "Read More"
+            },
+            {
+                "id": "3",
+                "header" : "Merriage Celebrations",
+                "detailes" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+                "img": "https://i.postimg.cc/RV2bCpY5/michele-blackwell-r-Ay-CBQTH7ws-unsplash.jpg",
+                "button" : "Read More"
+            }
+        ]
+    }
+]
     
 
 
