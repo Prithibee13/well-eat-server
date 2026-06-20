@@ -1,4 +1,4 @@
-import type { Ibanner } from "../interfaces/banner.interface.js"
+import type { Ibanner } from "../interfaces/banner.interface"
 import { model, Schema }  from "mongoose"
 
 

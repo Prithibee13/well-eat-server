@@ -1,4 +1,4 @@
-import { Istory } from "../interfaces/story.interface.js"
+import { Istory } from "../interfaces/story.interface"
 import { model, Schema }  from "mongoose"
 
 

@@ -1,4 +1,4 @@
-import type { Inav } from '../interfaces/nav.interface.ts';
+import type { Inav } from '../interfaces/nav.interface';
 import { model, Schema } from "mongoose";
 
 

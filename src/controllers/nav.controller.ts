@@ -1,4 +1,4 @@
-import { getNavService, updateNavService } from '../service/nav.service.ts';
+import { getNavService, updateNavService } from '../service/nav.service';
 import type { Request, Response } from 'express';
 import mongoose from 'mongoose';
 
