@@ -1,10 +1,10 @@
-import { getNavService, updateNavService } from '../service/nav.service.ts';
+import { getBannerService, updateBannerService } from '../service/banner.service.ts';
 import type { Request, Response } from 'express';
 import mongoose from 'mongoose';
 
-export const getNav = async (req: Request, res: Response) => {
+export const getBanner = async (req: Request, res: Response) => {
     try {
-        const result = await getNavService()
+        const result = await getBannerService()
         res.status(200).json({
             success: true,
             message: "all hero data retrived",
@@ -22,11 +22,11 @@ export const getNav = async (req: Request, res: Response) => {
 }
 
 
-export const updateNav = async (req: Request, res: Response) => {
+export const updateBanner = async (req: Request, res: Response) => {
     const id = new mongoose.Types.ObjectId(req.params.id)
     const payload = req.body
     try {
-        const result = await updateNavService(id, payload)
+        const result = await updateBannerService(id, payload)
         res.status(200).json({
             success: true,
             message: "Data Updated",
