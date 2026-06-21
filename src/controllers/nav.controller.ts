@@ -1,4 +1,4 @@
-import { getNavService, updateNavService } from '../service/nav.service';
+import { getNavService, updateNavService } from '../service/nav.service.ts';
 import type { Request, Response } from 'express';
 import mongoose from 'mongoose';
 
@@ -7,7 +7,7 @@ export const getNav = async (req: Request, res: Response) => {
         const result = await getNavService()
         res.status(200).json({
             success: true,
-            message: "all hero data retrived",
+            message: "all nav data retrived",
             data: result
         })
     }
@@ -29,7 +29,7 @@ export const updateNav = async (req: Request, res: Response) => {
         const result = await updateNavService(id, payload)
         res.status(200).json({
             success: true,
-            message: "Data Updated",
+            message: "Nav Data Updated",
             data: result
         })
     }

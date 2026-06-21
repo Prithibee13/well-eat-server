@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import app from "./app"
+import app from "./app.ts"
 
 const port = process.env.PORT || 8000;
 

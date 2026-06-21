@@ -1,5 +1,5 @@
 import { Router } from "express"
-import { getBanner, updateBanner } from "../controllers/banner.controller"
+import { getBanner, updateBanner } from "../controllers/banner.controller.ts"
 
 const router = Router()
 

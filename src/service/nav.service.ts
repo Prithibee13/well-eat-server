@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
-import Nav from "../models/nav.model"
-import type { Inav } from "../interfaces/nav.interface"
+import Nav from "../models/nav.model.ts"
+import type { Inav } from "../interfaces/nav.interface.ts"
 
 export const getNavService = async() => 
 {

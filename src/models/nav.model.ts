@@ -1,4 +1,4 @@
-import type { Inav } from '../interfaces/nav.interface';
+import type { Inav } from '../interfaces/nav.interface.ts';
 import { model, Schema } from "mongoose";
 
 
@@ -7,10 +7,14 @@ const navSchema = new Schema <Inav>({
         type: String
     },
     links : {
-        type : [String]
+        type : [
+            {
+                links : String
+            }
+        ]
     }
 })
 
-const Nav = model<Inav>("nav", navSchema)
+const Nav = model<Inav>("navs", navSchema)
 
 export default Nav

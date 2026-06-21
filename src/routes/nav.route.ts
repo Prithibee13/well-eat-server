@@ -1,5 +1,5 @@
 import { Router } from "express"
-import { getNav, updateNav } from "../controllers/nav.controller"
+import { getNav, updateNav } from "../controllers/nav.controller.ts"
 
 const router = Router()
 

@@ -1,4 +1,4 @@
-import type { Ibanner } from "../interfaces/banner.interface"
+import type { Ibanner } from "../interfaces/banner.interface.ts"
 import { model, Schema }  from "mongoose"
 
 

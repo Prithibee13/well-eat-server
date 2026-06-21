@@ -1,4 +1,4 @@
-import { getBannerService, updateBannerService } from '../service/banner.service';
+import { getBannerService, updateBannerService } from '../service/banner.service.ts';
 import type { Request, Response } from 'express';
 import mongoose from 'mongoose';
 

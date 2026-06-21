@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
-import Banner from "../models/banner.model"
-import type { Ibanner } from "../interfaces/banner.interface"
+import Banner from "../models/banner.model.ts"
+import type { Ibanner } from "../interfaces/banner.interface.ts"
 
 export const getBannerService = async() => 
 {

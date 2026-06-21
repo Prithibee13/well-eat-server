@@ -2,8 +2,8 @@ import express from 'express';
 import type { Request, Response } from 'express';
 import cors from 'cors'
 import dotenv from "dotenv";
-import bannerRouter from "./routes/banner.route"
-import navRouter from "./routes/nav.route"
+import bannerRouter from "./routes/banner.route.ts"
+import navRouter from "./routes/nav.route.ts"
 const app = express();
 dotenv.config();
 
