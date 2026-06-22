@@ -6,7 +6,8 @@
     "allowImportingTsExtensions": false,
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "outDir" : "/dist"
   },
 
   "include": ["**/*.ts"],
