@@ -8,3 +8,5 @@ mongoose.connect(process.env.DB_URI)
     });
 })
     .catch(err => console.error("Database connection failed", err));
+
+export default app
